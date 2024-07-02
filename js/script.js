@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (index < text.length) {
           textElement.innerHTML += text.charAt(index);
           index++;
-          setTimeout(type, 340);
+          setTimeout(type, 300);
       } else {
           textElement.classList.add('blink-caret');
       }
